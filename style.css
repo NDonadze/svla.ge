@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(rgb(255, 245, 226), rgb(255, 232, 232));
+    background-image: linear-gradient( rgb(255, 249, 241), white);
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
@@ -12,6 +12,7 @@ body{
 header{
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 .logo_container{
     margin: 0 auto;
