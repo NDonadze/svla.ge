@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>სვლა</title>
+</head>
+<body>
+    <header>
+        <div class="logo_container">
+            <a href="index.html">
+                <img src="./img/svla.svg" alt="SVLA" class="logo_image">
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="about_container">
+            <div class="text_container">
+                <p class="title">მოუბარი</p>
+                <p class="title_text">პირველად იყო ბგერა და არ ვიცით, ყველაფრისთვის თავის სახელის დარქმევის სურვილმა ქნა თუ ჩვენმა დაუდგომელმა ცნობისმოყვარეობამ, მაგრამ, ფაქტია, ასო-ბგერები ძვირფას კონებად შევკარით და სიტყვები გამოვიგონეთ.
+                    ამის შემდეგ, ყვავილების სადარი ანბანითა და სიტყვაკაზმულობით, ფონსაც, მეტ-ნაკლებად, იოლად გავდივართ და იმის მიუხედავად, რომ განმარტება ყველაფერს მოეძებნება, ზოგჯერ, სიტყვები მაინც არ გვყოფნის.</p>
+            </div>
+            <div class="card_wrapper">
+                <div class="card" id="card1">
+                    <img src="./img/xedva.png" alt="ხედვა" class="card_img" id="xedva_img">
+                    <div id="xedva_text" class="card_text_wrapper">
+                        <p class="card_title">ხედვა</p>
+                        <p class="card_text">გონებაში აღბეჭდილი მკაფიო სურათი ან წარმოდგენა, რომელიც შთაგაგონებს, 
+                            განსაზღვრავს მიმართულებას და გეხმარება სასურველი მიზნისკენ სწრაფვაში.</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <img src="./img/survili.png" alt="სურვილი" class="card_img" id="survili_img">
+                    <div id="survili_text" class="card_text_wrapper">
+                        <p class="card_title">სურვილი</p>
+                        <p class="card_text">გულიდან წამოსული შეგრძნება თუ ვნება, რომელიც აძლიერებს მოტივაციას და გვაიძულებს წინსვლას;
+                             გვიბიძგებს მოქმედებისკენ და გვეხმარება სანუკვარ ოცნებებთან მიახლოებაში.</p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <img src="./img/moqmedeba.png" alt="მოქმედება" class="card_img" id="moqmedeba_img">
+                    <div id="moqmedeba_text" class="card_text_wrapper">
+                        <p class="card_title">მოქმედება</p>
+                        <p class="card_text">მიზანმიმართული ძალისხმევა, რომელიც აქცევს ოცნებებს რეალობად; 
+                            გამბედაობითა და მონდომებით გადადგმული ნაბიჯები, წარმატების უმოკლეს დროში მისაღწევად.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+
+        const card1 = document.getElementById("card1")
+        const xedvaImg = document.getElementById("xedva_img")
+        const xedvaText = document.getElementById("xedva_text")
+
+        card1.addEventListener("mouseover", () => {
+            xedvaImg.style.opacity = "0"
+            xedvaText.style.opacity = "100"
+            xedvaText.style.transitionDuration = "0.2s"
+            xedvaText.style.transitionDelay = "0.15s"
+            xedvaText.style.transitionTimingFunction = "linear"
+        })
+        card1.addEventListener("mouseout", () => {
+            xedvaImg.style.opacity = "100"
+            xedvaText.style.opacity = "0"
+            xedvaText.style.transitionDuration = "0.2s"
+            xedvaText.style.transitionTimingFunction = "linear"
+        })
+
+        const card2 = document.getElementById("card2")
+        const surviliImg = document.getElementById("survili_img")
+        const surviliText = document.getElementById("survili_text")
+
+        card2.addEventListener("mouseover", () => {
+            surviliImg.style.opacity = "0"
+            surviliText.style.opacity = "100"
+            surviliText.style.transitionDuration = "0.2s"
+            surviliText.style.transitionDelay = "0.15s"
+            surviliText.style.transitionTimingFunction = "linear"
+        })
+        card2.addEventListener("mouseout", () => {
+            surviliImg.style.opacity = "100"
+            surviliText.style.opacity = "0"
+            surviliText.style.transitionDuration = "0.2s"
+            surviliText.style.transitionTimingFunction = "linear"
+        })
+
+        const card3 = document.getElementById("card3")
+        const moqmedebaImg = document.getElementById("moqmedeba_img")
+        const moqmedebaText = document.getElementById("moqmedeba_text")
+
+        card3.addEventListener("mouseover", () => {
+            moqmedebaImg.style.opacity = "0"
+            moqmedebaText.style.opacity = "100"
+            moqmedebaText.style.transitionDuration = "0.2s"
+            moqmedebaText.style.transitionDelay = "0.15s"
+            moqmedebaText.style.transitionTimingFunction = "linear"
+        })
+        card3.addEventListener("mouseout", () => {
+            moqmedebaImg.style.opacity = "100"
+            moqmedebaText.style.opacity = "0"
+            moqmedebaText.style.transitionDuration = "0.2s"
+            moqmedebaText.style.transitionTimingFunction = "linear"
+        })
+
+        
+
+    </script>
+</body>
+</html>
