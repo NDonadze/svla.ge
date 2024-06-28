@@ -46,6 +46,30 @@
                             გამბედაობითა და მონდომებით გადადგმული ნაბიჯები, წარმატების უმოკლეს დროში მისაღწევად.</p>
                     </div>
                 </div>
+                <div class="card" id="card4">
+                    <img src="./img/mizani.png" alt="მიზანი" class="card_img" id="mizani_img">
+                    <div id="mizani_text" class="card_text_wrapper">
+                        <p class="card_title">მიზანი</p>
+                        <p class="card_text">განზრახვა, რომელიც შთააგონებს მოქმედებას, აყალიბებს მიმართულებას და აძლიერებს 
+                            მოტივაციას სასურველ წერტილთან მისასვლელად.</p>
+                    </div>
+                </div>
+                <div class="card" id="card5">
+                    <img src="./img/energia.png" alt="ენერგია" class="card_img" id="energia_img">
+                    <div id="energia_text" class="card_text_wrapper">
+                        <p class="card_title">ენერგია</p>
+                        <p class="card_text">ძალა, რომელიც უბიძგებს ცოცხალ ორგანიზმებს მოქმედებისკენ; სიცოცხლისუნარიანობის მომნიჭებელი 
+                            მუხტი, რომელიც ზრდასა და ცვლილებებს უზრუნველყოფს.</p>
+                    </div>
+                </div>
+                <div class="card" id="card6">
+                    <img src="./img/muxti.png" alt="მუხტი" class="card_img" id="muxti_img">
+                    <div id="muxti_text" class="card_text_wrapper">
+                        <p class="card_title">მუხტი</p>
+                        <p class="card_text">ენერგიისა თუ შთაგონების უეცარი, ელექტრული აფეთქება, რომელიც ბიძგს აძლევს მოქმედებას,
+                             აძლიერებს მას და იწვევს პოზიტიურ ცვლილებებსა და ტრანსფორმაციას.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -105,6 +129,60 @@
             moqmedebaText.style.opacity = "0"
             moqmedebaText.style.transitionDuration = "0.2s"
             moqmedebaText.style.transitionTimingFunction = "linear"
+        })
+
+        const card4 = document.getElementById("card4")
+        const mizaniImg = document.getElementById("mizani_img")
+        const mizaniText = document.getElementById("mizani_text")
+
+        card4.addEventListener("mouseover", () => {
+            mizaniImg.style.opacity = "0"
+            mizaniText.style.opacity = "100"
+            mizaniText.style.transitionDuration = "0.2s"
+            mizaniText.style.transitionDelay = "0.15s"
+            mizaniText.style.transitionTimingFunction = "linear"
+        })
+        card4.addEventListener("mouseout", () => {
+            mizaniImg.style.opacity = "100"
+            mizaniText.style.opacity = "0"
+            mizaniText.style.transitionDuration = "0.2s"
+            mizaniText.style.transitionTimingFunction = "linear"
+        })
+
+        const card5 = document.getElementById("card5")
+        const energiaImg = document.getElementById("energia_img")
+        const energiaText = document.getElementById("energia_text")
+
+        card5.addEventListener("mouseover", () => {
+            energiaImg.style.opacity = "0"
+            energiaText.style.opacity = "100"
+            enrgiaText.style.transitionDuration = "0.2s"
+            energiaText.style.transitionDelay = "0.15s"
+            energiaText.style.transitionTimingFunction = "linear"
+        })
+        card5.addEventListener("mouseout", () => {
+            energiaImg.style.opacity = "100"
+            energiaText.style.opacity = "0"
+            energiaText.style.transitionDuration = "0.2s"
+            energiaText.style.transitionTimingFunction = "linear"
+        })
+
+        const card6 = document.getElementById("card6")
+        const muxtiImg = document.getElementById("muxti_img")
+        const muxtiText = document.getElementById("muxti_text")
+
+        card6.addEventListener("mouseover", () => {
+            muxtiImg.style.opacity = "0"
+            muxtiText.style.opacity = "100"
+            muxtiText.style.transitionDuration = "0.2s"
+            muxtiText.style.transitionDelay = "0.15s"
+            muxtiText.style.transitionTimingFunction = "linear"
+        })
+        card6.addEventListener("mouseout", () => {
+            muxtiImg.style.opacity = "100"
+            muxtiText.style.opacity = "0"
+            muxtiText.style.transitionDuration = "0.2s"
+            muxtiText.style.transitionTimingFunction = "linear"
         })
 
         
