@@ -7,7 +7,7 @@
     <meta property="og:type" content="Motivational page" />
     <meta property="og:title" content="შენი ძალა შენს თავშია!" />
     <meta property="og:description" content="" />
-    <meta property="og:image" content="./img/svla.svg" />
+    <meta property="og:image" content="https://svla.ge/src/img/khedva.png" />
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./img/star.svg" type="image/x-icon">
@@ -21,7 +21,7 @@
             </a>
         </div>
     </header>
-    <main>
+    <main id="main">
         <section class="about_container">
             <div class="text_container">
                 <p class="title">მოუბარი</p>
@@ -507,6 +507,14 @@
             nakadiText.style.transitionDuration = "0.2s"
             nakadiText.style.transitionTimingFunction = "linear"
         })
+
+        const main = document.getElementById("main")
+
+        setTimeout(() => {
+            main.style.opacity = "100";
+            main.style.transitionDuration = "0.5s"
+            main.style.transitionTimingFunctionlinear
+        }, 400);
 
 
 
