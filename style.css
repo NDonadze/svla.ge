@@ -83,97 +83,9 @@ header{
     width: 100%;
     border-radius: 10px;
 }
-#xedva_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#gardatexa_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#shekmna_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#motivacia_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#shtagoneba_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#sibrdzne_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#vneba_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#ganwkoba_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#nakadi_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#dzala_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#azrovneba_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#dro_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#gabedva_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#survili_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#moqmedeba_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#mizani_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#energia_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
-#muxti_text{
-    opacity: 0;
-    position: absolute;
-    z-index: 1;
-}
 .card_text_wrapper{
+    position: absolute;
+    opacity: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
